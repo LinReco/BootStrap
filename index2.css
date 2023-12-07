@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&display=swap");
+.area {
+  width: 1440px;
+  box-sizing: border-box;
+}
+
+.top {
+  width: 100vw;
+  height: 168px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+  background-color: white;
+}
+.top .box {
+  width: 98px;
+  height: 98px;
+  background-color: #1e293b;
+  margin-bottom: 30px;
+}
+.top .item {
+  font-family: "Noto Serif JP", serif;
+  margin-bottom: 60px;
+}
+.top .company {
+  display: flex;
+}
+.top .line {
+  height: 3vh;
+  border: 1.5px solid black;
+  border-radius: 8px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.top .phone {
+  font-size: 14pt;
+}
+.top .phone i {
+  font-size: 20pt;
+}
+.top button {
+  height: 48px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  border-radius: 8px;
+}
+.top button a {
+  color: white;
+  text-decoration: none;
+}
+
+.view {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #9EB1BB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view .deskTop {
+  width: 320px;
+  height: 327px;
+  position: relative;
+}
+.view .deskTop .logIn {
+  width: 144.5px;
+  height: 41px;
+  background-color: #4D6674;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 27%;
+}
+.view .deskTop .blank {
+  width: 320px;
+  height: 132px;
+  margin-top: 49px;
+}
+.view .deskTop h1 {
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill;
+  height: 24px;
+  margin: 0;
+  font-size: 36px;
+  text-align: center;
+}
+.view .deskTop p {
+  margin: 0;
+  color: #344054;
+}
+.view .deskTop .email {
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.view .deskTop .passWord {
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.view .item {
+  display: flex;
+  justify-content: space-between;
+}
+.view .item .itemA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view .item .itemA .keepLogin {
+  width: 22px;
+  height: 22px;
+}
+.view .item .itemA label {
+  margin-top: 6px;
+}
+.view .item .signUp {
+  height: 25px;
+  margin-top: 6px;
+  background-color: #4D6674;
+  color: white;
+  border-radius: 5px;
+}/*# sourceMappingURL=index2.css.map */
